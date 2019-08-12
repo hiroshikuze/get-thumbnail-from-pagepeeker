@@ -35,7 +35,7 @@ Put common.php and thumbnail.php in the same folder.
 
 ## Test
 
-Use postman, and import "test\GitHub.postman_collection.json".
+Use [postman](https://www.getpostman.com/), and import ["test\GitHub.postman_collection.json"](test\GitHub.postman_collection.json).
 
 ## Licence
 
