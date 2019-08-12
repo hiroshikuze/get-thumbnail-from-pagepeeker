@@ -23,11 +23,11 @@ This program has been tested with PHP7.
 get_thumbnail.php?size=[size]&base64=[base64]&url=[url]
 ```
 
-|No|Item|Type|Comment|Example|
-|--:|:--|:--|:--|:--|
-|1|size|string|Thumbnail size.<br>Select t,s,m,l,x.<br>See [pagepeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
-|2|base64|boolean|Is the return value acquired in base64?|true|
-|3|url|string|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
+|No|Item|Type|Must|Comment|Example|
+|--:|:--|:--|:--|:--|:--|
+|1|size|string|yes|Thumbnail size.<br>Select t,s,m,l,x.<br>See [pagepeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
+|2|base64|boolean|yes|Is the return value acquired in base64?|true|
+|3|url|string|no|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
 
 ## Install
 
