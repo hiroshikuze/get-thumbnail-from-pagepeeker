@@ -1,12 +1,12 @@
 Get thumbnail from pagepeeker
 ====
 
-This API by PHP that get the thumbnail images of the specified URL from [pagepeeker](https://pagepeeker.com/) and convert to it base64.  
+This API by PHP that get the thumbnail images of the specified URL from [pagepeeker](https://pagepeeker.com/) and, tunnel or convert to it base64.  
 
 ## Description
 
 August 2019, free.pagepeeker.com cannot obtain thumbnail images via SSL.  
-This API by PHP is get the thumbnail images from free.pagepeeker.com and converts them to base64.  
+This API by PHP is get the thumbnail images from free.pagepeeker.com and, tunnel or converts them to base64.  
 
 ## Example of use
 
@@ -25,9 +25,9 @@ get_thumbnail.php?size=[size]&base64=[base64]&url=[url]
 
 |No|Item|Type|Comment|Example|
 |--:|:--|:--|:--|:--|
-|1|size|string|Thumbnail size.<br>Select t,s,m,l,x.<br>See https://pagepeeker.com/website-thumbnails-api/ .|t|
+|1|size|string|Thumbnail size.<br>Select t,s,m,l,x.<br>See [pagepeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
 |2|base64|boolean|Is the return value acquired in base64?|true|
-|3|url|string|Thumbnail acquisition source.|https://kuje.kousakusyo.info/tools/PasteTitle/|
+|3|url|string|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
 
 ## Install
 
