@@ -10,7 +10,7 @@ This API by PHP is get the thumbnail images from free.pagepeeker.com and convert
 
 ## Example of use
 
-[![Paste Title / ジグソーTools ～ 指定したWebページのURLを&lt;a&gt;タグで囲むWebサービス](image/sample.jpg)](https://kuje.kousakusyo.info/tools/PasteTitle/)
+[![Paste Title / ジグソーTools ～ 指定したWebページのURLを&lt;a&gt;タグで囲むWebサービス](image/sample.jpg)](https://kuje.kousakusyo.info/tools/PasteTitle/)  
 Thumbnail acquisition part in [Paste Title](https://kuje.kousakusyo.info/tools/PasteTitle/) (HTML or Markdown).  
 
 ## Requirement
@@ -20,14 +20,14 @@ This program has been tested with PHP7.
 ## Usage
 
 ```
-get_thumbnail.php?size=[size:string]&base64=[base64:boolean]&url=[url:string]
+get_thumbnail.php?size=[size]&base64=[base64]&url=[url]
 ```
 
-|No|Item|Comment|Example|
-|--:|:--|:--|:--|
-|1|size|Thumbnail size.<br>Select t,s,m,l,x.<br>See https://pagepeeker.com/website-thumbnails-api/ .|t|
-|2|base64|Is the return value acquired in base64?|true|
-|3|url|Thumbnail acquisition source.|https://kuje.kousakusyo.info/tools/PasteTitle/|
+|No|Item|Type|Comment|Example|
+|--:|:--|:--|:--|:--|
+|1|size|string|Thumbnail size.<br>Select t,s,m,l,x.<br>See https://pagepeeker.com/website-thumbnails-api/ .|t|
+|2|base64|boolean|Is the return value acquired in base64?|true|
+|3|url|string|Thumbnail acquisition source.|https://kuje.kousakusyo.info/tools/PasteTitle/|
 
 ## Install
 
@@ -40,3 +40,7 @@ Put common.php and thumbnail.php in the same folder.
 ## Author
 
 [hiroshikuze](https://github.com/hiroshikuze)
+
+## Donation
+
+[Author's wish list by Amazon(Japanese)](https://www.amazon.jp/hz/wishlist/ls/5BAWD0LZ89V9?ref_=wl_share)
