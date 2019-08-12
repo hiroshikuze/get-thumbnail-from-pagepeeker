@@ -1,7 +1,7 @@
-Get thumbnail from pagepeeker
+Get thumbnail from PagePeeker
 ====
 
-This API by PHP that get the thumbnail images of the specified URL from [pagepeeker](https://pagepeeker.com/) and, tunnel or convert to it base64.  
+This API by PHP that get the thumbnail images of the specified URL from [PagePeeker](https://pagepeeker.com/) and, tunnel or convert to it base64.  
 
 ## Description
 
@@ -25,13 +25,17 @@ get_thumbnail.php?size=[size]&base64=[base64]&url=[url]
 
 |No|Item|Type|Must|Comment|Example|
 |--:|:--|:--|:--|:--|:--|
-|1|size|string|yes|Thumbnail size.<br>Select t,s,m,l,x.<br>See [pagepeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
+|1|size|string|yes|Thumbnail size.<br>Select t,s,m,l,x.<br>See [PagePeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
 |2|base64|boolean|yes|Is the return value acquired in base64?|true|
 |3|url|string|no|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
 
 ## Install
 
 Put common.php and thumbnail.php in the same folder.
+
+## Test
+
+Use postman, and import "test\GitHub.postman_collection.json".
 
 ## Licence
 

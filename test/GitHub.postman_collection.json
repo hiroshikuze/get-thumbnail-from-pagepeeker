@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "1167880c-7747-45a3-9269-24f29e6ca875",
+		"name": "GitHub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_thumbnail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/get_thumbnail.php?size=x&base64=true&url=https://kuje.kousakusyo.info/tools/PasteTitle/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"get_thumbnail.php"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "x"
+						},
+						{
+							"key": "base64",
+							"value": "true"
+						},
+						{
+							"key": "url",
+							"value": "https://kuje.kousakusyo.info/tools/PasteTitle/"
+						}
+					]
+				},
+				"description": "サムネイルの取得"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0cd66be9-6480-4ad8-8c49-5732beb8c3a9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a31e4fd6-e4de-457f-9927-98e68a1d3974",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
