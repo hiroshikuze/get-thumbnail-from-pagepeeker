@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "1167880c-7747-45a3-9269-24f29e6ca875",
-		"name": "GitHub",
+		"name": "GitHub_get-thumbnail-from-pagepeeker",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -11,12 +11,17 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost/api/get_thumbnail.php?size=x&base64=true&url=https://kuje.kousakusyo.info/tools/PasteTitle/",
+					"raw": "http://localhost/tools/PasteTitle/test/api/get_thumbnail.php?size=x&base64=false&dont_use_ogp=false&url=https://kuje.kousakusyo.info/tools/PasteTitle/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"hiroshikuze",
+						"xsrv",
+						"jp"
 					],
 					"path": [
+						"tools",
+						"PasteTitle",
+						"test",
 						"api",
 						"get_thumbnail.php"
 					],
@@ -27,7 +32,11 @@
 						},
 						{
 							"key": "base64",
-							"value": "true"
+							"value": "false"
+						},
+						{
+							"key": "dont_use_ogp",
+							"value": "false"
 						},
 						{
 							"key": "url",

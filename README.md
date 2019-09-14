@@ -1,12 +1,12 @@
 Get thumbnail from PagePeeker
 ====
 
-This API by PHP that get the thumbnail images of the specified URL from [PagePeeker](https://pagepeeker.com/) and, tunnel or convert to it base64.  
+The PHP by API to get the thumbnail of the specified page.  
 
 ## Description
 
 August 2019, free.pagepeeker.com cannot obtain thumbnail images via SSL.  
-This API by PHP is get the thumbnail images from free.pagepeeker.com and, tunnel or converts them to base64.  
+The API, If OGP is not specified, a page thumbnail is generated with [PagePeeker](https://pagepeeker.com/), processed to the specified size, converted to base64 and output.  
 
 ## Example of use
 
@@ -19,15 +19,16 @@ This program has been tested with PHP7.
 
 ## Usage
 
-```
-get_thumbnail.php?size=[size]&base64=[base64]&url=[url]
+```shell
+get_thumbnail.php?size=[size]&base64=[base64]&dont_use_ogp=[dont_use_ogp]&url=[url]
 ```
 
 |No|Item|Type|Must|Comment|Example|
 |--:|:--|:--|:--|:--|:--|
 |1|size|string|yes|Thumbnail size.<br>Select t,s,m,l,x.<br>See [PagePeeker API document](https://pagepeeker.com/website-thumbnails-api/).|t|
 |2|base64|boolean|yes|Is the return value acquired in base64?|true|
-|3|url|string|no|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
+|3|dont_use_ogp|boolean|no|Force PagePeeker to generate thumbnails without using OGP.|false(default)|
+|4|url|string|yes|Thumbnail acquisition source.|[http://bit.ly/2ZVDTyD](http://bit.ly/2ZVDTyD)|
 
 ## Install
 
