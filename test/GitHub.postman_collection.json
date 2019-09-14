@@ -28,19 +28,23 @@
 					"query": [
 						{
 							"key": "size",
-							"value": "x"
+							"value": "x",
+							"description": "Export image size."
 						},
 						{
 							"key": "base64",
-							"value": "false"
+							"value": "false",
+							"description": "Do export base64."
 						},
 						{
 							"key": "dont_use_ogp",
-							"value": "false"
+							"value": "false",
+							"description": "Don't use OGP?"
 						},
 						{
 							"key": "url",
-							"value": "https://kuje.kousakusyo.info/tools/PasteTitle/"
+							"value": "https://kuje.kousakusyo.info/tools/PasteTitle/",
+							"description": "Import URL."
 						}
 					]
 				},
