@@ -72,11 +72,13 @@ if(! $dont_use_ogp) {
             die();
         } else {
             //base64出力
-            sleep(1);
-            readfile($URLpagepeeker);
             header('Content-Type: application/json');
+            ob_start();
+            imagepng($canvas);
+            $export = ob_get_contents();
+            ob_end_clean();
             $result = array(
-                'base64' => base64_encode($canvas)
+                'base64' => base64_encode($export)
             );
             echo json_encode($result);
         }
