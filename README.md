@@ -56,6 +56,8 @@ Use [postman](https://www.getpostman.com/), and import ["test/GitHub.postman_col
 
 ## 💖 Support my work
 
+[![GitHub Stars](https://img.shields.io/github/stars/hiroshikuze/get-thumbnail-from-pagepeeker?style=for-the-badge&logo=github&label=Stars&color=gold)](https://github.com/hiroshikuze/get-thumbnail-from-pagepeeker/stargazers)
+
 If you'd like to support my projects, please consider becoming a sponsor!
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/hiroshikuze)
